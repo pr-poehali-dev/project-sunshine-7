@@ -1,4 +1,4 @@
-import { Film, Sparkles, Captions } from "lucide-react"
+import { Film, Sparkles, MessageSquare } from "lucide-react"
 
 const services = [
   {
@@ -19,7 +19,7 @@ const services = [
     id: 3,
     title: "Субтитры и звук",
     description: "Анимированные субтитры, подбор музыки и звуковые эффекты для максимального вовлечения.",
-    icon: Captions,
+    icon: MessageSquare,
     color: "bg-[#7A7FEE]",
   },
 ]
