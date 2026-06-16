@@ -5,18 +5,19 @@ export default function Hero() {
     <section id="hero" className="card my-8 relative overflow-hidden shadow-md">
       <div className="p-8 md:p-10 lg:p-12 flex flex-col md:flex-row items-start">
         <div className="w-full md:w-3/5 z-10">
+          <p className="mb-4 text-sm font-medium tracking-widest uppercase text-[#7A7FEE]">Видеомонтаж · Reels · Shorts</p>
           <h1 className="text-black dark:text-white text-4xl md:text-5xl lg:text-6xl font-medium leading-tight">
-            Ваш AI-партнер
-            <span className="block text-[#7A7FEE] dark:text-[#7A7FEE]">в разработке</span>
-            проектов
+            Превращаю съёмку
+            <span className="block text-[#7A7FEE] dark:text-[#7A7FEE]">в вирусные рилс</span>
+            которые смотрят до конца
           </h1>
           <p className="my-6 text-sm md:text-base max-w-md text-gray-700 dark:text-gray-300">
-            Мы создаем качественные масштабируемые платформы — клиентские порталы, маркетплейсы, AI-автоматизации и SaaS — используя лучшие инструменты без компромиссов.
+            Привет, я Nate — видеомонтажёр коротких видео. Делаю динамичный монтаж, цветокор, субтитры и звук, чтобы ваши Reels и Shorts набирали просмотры и удерживали аудиторию.
           </p>
           <div className="flex flex-wrap items-center gap-4">
-            <ContactFormButton />
-            <a href="#services" className="btn-secondary text-black dark:text-white">
-              Узнать больше
+            <ContactFormButton>Заказать монтаж</ContactFormButton>
+            <a href="#projects" className="btn-secondary text-black dark:text-white">
+              Смотреть работы
             </a>
           </div>
         </div>

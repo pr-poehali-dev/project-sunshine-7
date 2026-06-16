@@ -38,8 +38,8 @@ export default function Header() {
         <div className="container py-4">
           <div className="flex items-center justify-between">
             <a href="#" className="flex items-center">
-              <span className="text-2xl font-bold text-black dark:text-white">
-                Neural<span className="text-[#7A7FEE]">Works</span>
+              <span className="text-2xl font-bold text-black dark:text-white tracking-tight">
+                nate<span className="text-[#7A7FEE]">.edit</span>
               </span>
             </a>
 
@@ -51,7 +51,7 @@ export default function Header() {
                       href="#projects"
                       className="text-black dark:text-white hover:text-[#7A7FEE] dark:hover:text-[#7A7FEE] transition-colors"
                     >
-                      Проекты
+                      Работы
                     </a>
                   </li>
                   <li>
@@ -99,8 +99,8 @@ export default function Header() {
         <div className="fixed inset-0 z-[100] bg-black/50 md:hidden">
           <div className="fixed top-0 right-0 h-full w-[85%] max-w-sm bg-white dark:bg-[#111111] shadow-xl overflow-y-auto">
             <div className="sticky top-0 z-10 flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111]">
-              <span className="text-xl font-bold text-black dark:text-white">
-                Neural<span className="text-[#7A7FEE]">Works</span>
+              <span className="text-xl font-bold text-black dark:text-white tracking-tight">
+                nate<span className="text-[#7A7FEE]">.edit</span>
               </span>
               <button
                 onClick={() => setMobileMenuOpen(false)}
@@ -128,7 +128,7 @@ export default function Header() {
                     className="flex items-center py-3 px-4 rounded-lg text-base text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800"
                     onClick={() => setMobileMenuOpen(false)}
                   >
-                    Проекты
+                    Работы
                   </a>
                 </li>
                 <li>
@@ -158,7 +158,7 @@ export default function Header() {
                 className="flex items-center justify-center w-full py-3 px-4 bg-[#7A7FEE] text-white rounded-lg text-base font-medium hover:bg-opacity-90 transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Связаться с нами
+                Написать мне
               </a>
             </div>
           </div>
