@@ -38,9 +38,11 @@ export default function Header() {
         <div className="container py-4">
           <div className="flex items-center justify-between">
             <a href="#" className="flex items-center">
-              <span className="text-2xl font-bold text-black dark:text-white tracking-tight">
-                nate<span className="text-[#7A7FEE]">.edit</span>
-              </span>
+              <img
+                src="https://cdn.poehali.dev/projects/9d37870e-f2bc-42a8-8758-cbe3f6f11651/bucket/9b89eafc-28c5-4966-b3c7-91abbf70abb8.jfif"
+                alt="nate.edit"
+                className="h-10 w-auto object-contain"
+              />
             </a>
 
             <div className="flex items-center space-x-4">
@@ -99,9 +101,11 @@ export default function Header() {
         <div className="fixed inset-0 z-[100] bg-black/50 md:hidden">
           <div className="fixed top-0 right-0 h-full w-[85%] max-w-sm bg-white dark:bg-[#111111] shadow-xl overflow-y-auto">
             <div className="sticky top-0 z-10 flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111]">
-              <span className="text-xl font-bold text-black dark:text-white tracking-tight">
-                nate<span className="text-[#7A7FEE]">.edit</span>
-              </span>
+              <img
+                src="https://cdn.poehali.dev/projects/9d37870e-f2bc-42a8-8758-cbe3f6f11651/bucket/9b89eafc-28c5-4966-b3c7-91abbf70abb8.jfif"
+                alt="nate.edit"
+                className="h-9 w-auto object-contain"
+              />
               <button
                 onClick={() => setMobileMenuOpen(false)}
                 className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"

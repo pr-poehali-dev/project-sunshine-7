@@ -13,9 +13,11 @@ export default function Footer() {
     <footer className="container py-8 border-t border-gray-200 dark:border-gray-800">
       <div className="flex flex-col items-center text-center">
         <a href="#" className="flex items-center justify-center mb-4">
-          <span className="text-2xl font-bold text-black dark:text-white tracking-tight">
-            nate<span className="text-[#7A7FEE]">.edit</span>
-          </span>
+          <img
+            src="https://cdn.poehali.dev/projects/9d37870e-f2bc-42a8-8758-cbe3f6f11651/bucket/9b89eafc-28c5-4966-b3c7-91abbf70abb8.jfif"
+            alt="nate.edit"
+            className="h-10 w-auto object-contain"
+          />
         </a>
         <p className="text-sm text-gray-600 dark:text-gray-400 max-w-md mx-auto mb-8">
           Видеомонтаж Reels и Shorts, которые удерживают внимание и набирают просмотры.
