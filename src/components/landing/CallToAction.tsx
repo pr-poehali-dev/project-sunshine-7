@@ -3,21 +3,15 @@ import Icon from "@/components/ui/icon"
 const contacts = [
   {
     label: "Telegram",
-    value: "@nate",
-    href: "https://t.me/nate",
+    value: "@sheluvnate",
+    href: "https://t.me/sheluvnate",
     icon: "Send",
   },
   {
     label: "Instagram",
-    value: "@nate.edit",
-    href: "https://instagram.com/nate.edit",
+    value: "@sheluvnate",
+    href: "https://www.instagram.com/sheluvnate?igsh=Y2U5YjdtaXhnZ3d1&utm_source=qr",
     icon: "Instagram",
-  },
-  {
-    label: "Email",
-    value: "nate@example.com",
-    href: "mailto:nate@example.com",
-    icon: "Mail",
   },
 ]
 
